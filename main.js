@@ -2,9 +2,13 @@ const Stack = function() {
   return {
     items: [],
 
-    add: function(item) {
-      return this.items.push(item);
+    add: function(num) {
+      return this.items.push(num);
     
+},
+remove : function(){
+  return this.items.pop();
+
 }
 }
 }
