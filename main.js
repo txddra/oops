@@ -16,6 +16,7 @@ peek:function(){
 }
 }
 const Queue = function() {
+  return items =[]
 }
 
 module.exports = {
