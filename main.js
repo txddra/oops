@@ -16,7 +16,26 @@ peek:function(){
 }
 }
 const Queue = function() {
-  return items =[]
+
+  return{ 
+    items: [],
+  
+add: function (num){
+    return this.items.push(num);
+
+},
+
+remove: function(){
+  return this.items.shift();
+
+  },
+peek: function(){
+  return this.items[0];
+  
+  },
+
+}
+
 }
 
 module.exports = {
